@@ -6,6 +6,7 @@ public class Funcion {
 
 
     public static double f(String f, double V) {
+
         int k = 0;
         String array_f[] = new String[100];
         double fx[] = new double[100];
@@ -40,6 +41,7 @@ public class Funcion {
                             temp_S = temp_S + Character.toString(array_f[i].charAt(n));
                         }
                         temp_f = Double.parseDouble(temp_S);
+                        System.out.println(V+" temp_f");
                         fx[i] = Math.pow(V, temp_f);
 
                         if (j != 0) {
@@ -78,6 +80,7 @@ public class Funcion {
                 }
 
             }
+
             Resultado = Resultado + fx[i];
         }
 
@@ -86,7 +89,7 @@ public class Funcion {
 
     public static boolean exponencial(int i, int j, String valor_S) {
         for (int p = j; p < valor_S.length(); p++) {
-            if ("^".equals(Character.toString(valor_S.charAt(p)))) {
+            if ("ˆ".equals(Character.toString(valor_S.charAt(p)))) {
                 return true;
             }
         }
