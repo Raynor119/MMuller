@@ -1,2 +1,11 @@
+include ':original-javaluator-demo-3.0.2'
+include ':javaluator-examples-3.0.2'
+include ':javaluator-examples-3.0.2-sources'
+include ':javaluator-examples-3.0.2-javadoc'
+include ':javaluator-demo-3.0.2'
+include ':javaluator-demo-3.0.2-sources'
+include ':javaluator-3.0.2-sources'
+include ':javaluator-3.0.2'
+include ':javaluator-3.0.2-javadoc'
 include ':app'
 rootProject.name = "Mmuller"
