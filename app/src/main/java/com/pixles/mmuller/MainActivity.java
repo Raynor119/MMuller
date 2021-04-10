@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
             I1 = (fx2 - fx1) / (x2 - x1);
 
             a = (I1 - I0) / (h1 + h0);
-            b = (a * h1) - I1;
+            b = (a * h1) + I1;
             c = fx2;
 
             double raiz = Math.sqrt((Math.pow(b, 2)) - 4 * a * c);
