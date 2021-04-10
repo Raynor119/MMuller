@@ -134,6 +134,8 @@ public class MainActivity extends AppCompatActivity {
             c = fx2;
 
             double raiz = Math.sqrt((Math.pow(b, 2)) - 4 * a * c);
+
+
             if ((Math.abs(b + raiz)) > (Math.abs(b - raiz))) {
                 x3 = x2 + ((-2 * c) / (b + raiz));
             } else {
